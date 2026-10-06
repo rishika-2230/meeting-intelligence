@@ -1,0 +1,829 @@
+meeting_id,item_type,text,owner,deadline,confidence,evidence_turn_ids
+Bdb001,decisions,Use ATLAS external file representation for structured annotation data.,,,0.85,"[256, 257, 258]"
+Bdb001,commitments,Take a closer look at the ATLAS external file representation.,Grad C,,0.9,"[256, 258]"
+Bdb001,action_items,Take a closer look at the ATLAS external file representation.,Grad C,,0.9,"[256, 258]"
+Bdb001,risks,,,,0.9,"[108, 114]"
+Bed002,action_items,Pick a belief-net package to be presented and discussed next week,,next Monday,0.9,"[395, 466]"
+Bed006,decisions,Reschedule the weekly meeting time to Friday at three o'clock.,,,0.95,"[878, 879, 890, 918]"
+Bed006,action_items,Prepare and present the parser changes on Friday.,Grad F,Friday,0.95,"[264, 921]"
+Bed006,action_items,Have fleshed out XML examples for a run through ready for the next meeting.,Grad C,,0.9,"[827, 831]"
+Bmr003,decisions,Keep the existing microphone numbers on the forms and corpus rather than renumbering them.,Grad A,,0.95,"[28, 30]"
+Bmr003,decisions,"Adopt the minimal transcription conventions proposed by Jane, including orthographic provisions for colloquial forms.",Postdoc E,,0.95,"[878, 879, 966]"
+Bmr003,commitments,Contact the LDC/sources to order a copy of the Corpus of Spoken American English (CSAE) to review their format and compare.,PhD C,,0.95,"[334, 336]"
+Bmr003,commitments,Try the experiment of throwing out words from already-transcribed text while keeping time markings to test whether re-transcribing with fixed boundaries feels easier.,Postdoc E,,0.9,"[570, 591, 594]"
+Bmr003,commitments,Send web/documentation links and pointers to Adam so he can compile them.,,,0.9,[1328]
+Bmr003,action_items,Talk to Liz to see if there are any transcription issues related to discourse that need to be marked.,Postdoc E,,0.9,[361]
+Bmr003,action_items,Generate a test segmentation for a new text segment so Jane can perform a double-blind timing test.,Grad A,,0.9,"[616, 618]"
+Bmr003,action_items,Build the circuit board for the table wiring boxes.,Undergrad D,,0.9,"[1499, 1502]"
+Bmr003,objections,,,,0.95,[404]
+Bmr003,risks,,,,0.9,[408]
+Bmr003,risks,,,,0.85,[1200]
+Bmr003,unanswered_questions,When is the projector going to be installed?,,,0.9,"[159, 162]"
+Bmr006,decisions,Do digit recordings at the end of meetings.,,,0.95,[15]
+Bmr006,commitments,Send an email to people at Haas Business School who volunteered to ask if they are still willing to volunteer for recordings and tell them about the free lunch.,Grad B,,0.95,"[277, 281, 283]"
+Bmr006,action_items,Pursue contacting volunteers at Haas Business School.,Grad B,,0.9,"[277, 279]"
+Bmr006,objections,,,,0.9,[32]
+Bmr006,objections,,,,0.95,"[332, 334, 340]"
+Bmr006,risks,,,,0.9,[167]
+Bmr006,unanswered_questions,How should the data be anonymized to support both acoustic and discourse analysis?,,,0.9,"[1100, 1102, 1111]"
+Bmr016,decisions,Add instructions to read stimuli as single digits rather than connected numbers.,,,0.95,"[26, 85]"
+Bmr016,decisions,Store waveform sound files and temporary processed files on local scratch disk space instead of backing them up.,,,0.95,"[550, 551, 552]"
+Bmr016,decisions,"Do not downsample master waveform files, but downsample separate smaller generated waveform segments if needed by tools.",,,0.9,"[576, 577, 589, 590, 607]"
+Bmr016,action_items,Email the hard copy of ASR results to the mailing list.,,,0.85,"[1342, 1346]"
+Bmr016,action_items,Look at the disk partition configuration to determine where to store data.,Grad D,,0.9,"[695, 696]"
+Bmr016,risks,,,,0.95,[1342]
+Bmr019,decisions,Submit a Eurospeech paper on the spurt/overlap analysis and alignment work.,,,0.9,"[843, 848]"
+Bmr019,action_items,Try running the exact same recognizer system on the actual TI-digits test set to compare numbers.,,,0.85,"[116, 120]"
+Bmr019,action_items,Try running large vocabulary speech recognition from a far microphone (such as a PZM) on the good non-overlap segments.,,,0.85,"[331, 332, 342]"
+Bmr019,action_items,Send out a schedule for the Saturday meeting once available.,Professor B,,0.85,"[1024, 1028]"
+Bmr019,action_items,Send the final version of the segmentation paper.,PhD D,,0.9,"[940, 942]"
+Bmr024,decisions,"Store SmartKom data using the same directory structure and tools if convenient, but keep it as a separate corpus with its own transcription conventions rather than folding it into the meeting corpus.",,,0.9,"[411, 413, 463]"
+Bmr024,decisions,Use non-backed-up disks for data storage and archive them once to tape using the NW archive utility to avoid saturating the nightly backup system.,,,0.95,"[644, 711, 724]"
+Bmr024,action_items,Talk to Dave Johnson to determine the best way to handle archiving disks using the manual tape utility.,Grad F,,0.9,"[663, 666]"
+Bmr024,risks,,,,0.95,"[624, 642]"
+Bmr024,unanswered_questions,"Why is the performance of the ICSI PLP features on female speakers showing a three percent difference compared to the SRI features, and why did vocal tract length normalization make things worse?",,,0.85,"[752, 782]"
+Bmr025,decisions,Use Dan's Tcl-TK THISL GUI front-end for the DARPA demo user interface.,Grad H,,0.9,"[74, 75, 109, 110]"
+Bmr025,decisions,Return one of the CrossPads since they have not been used at all.,,,0.9,"[593, 594, 595]"
+Bmr025,action_items,Check with Dan to see if he has already ported the THISL IR tools to Autoconf/SPRACHeore or if it needs to be done.,Grad H,,0.9,"[139, 140, 147, 148]"
+Bmr025,action_items,Work with Dave Gelbart on adding features like query by speaker and by meeting to the user interface.,Grad H,,0.9,[113]
+Bmr025,action_items,"Talk with Thilo, Grad H, and Jane later about transcription formats in XML.",Grad H,,0.9,[261]
+Bmr025,action_items,Rewire the room so that the first N channels are close-talking microphones and the next N are far-field.,Grad H,,0.9,[620]
+Bmr025,objections,,,,0.9,[455]
+Bmr025,risks,,,,0.85,"[116, 117, 131]"
+Bmr025,risks,,,,0.9,"[422, 424]"
+Bmr025,unanswered_questions,What kind of sound file playback issues might occur between the two platforms?,,,0.8,[179]
+Bmr026,decisions,Send out links to web pages containing transcripts and audio to participants for participant approval and edit suggestions.,Grad A,,0.9,"[70, 74, 76, 78]"
+Bmr026,decisions,Alternate the focus of the meeting every other week between data and recognition.,,,0.9,"[466, 467, 486, 490]"
+Bmr026,commitments,Send out the transcription status web page list to the email list telling people to look at it.,PhD F,,0.95,"[64, 66, 68]"
+Bmr026,action_items,Ask Jane whether it would be ok for her transcribers to transcribe initial data from the SmartKom data collection.,PhD D,,0.9,"[32, 37, 58, 60]"
+Bmr026,action_items,Put the NT version of Transcriber out on the Meeting Recorder page.,PhD C,,0.9,"[140, 141, 142]"
+Bmr026,action_items,Chat with Liz and Jane about alternating the meeting focus every other week.,Professor B,,0.9,"[488, 490]"
+Bmr026,risks,,,,0.9,"[86, 185, 186]"
+Bmr026,unanswered_questions,Where will new disks be hung given the space situation in the machine room and the unavailability of Dave Johnson?,,,0.85,"[210, 342, 348, 354]"
+Bmr027,decisions,Consent form responses require no reply if there are no changes.,,,0.95,"[64, 66, 78]"
+Bmr027,decisions,Data release date is set for July fifteenth.,,,0.95,"[37, 38, 39]"
+Bmr027,decisions,New Cambridge SoundWorks earphones/headphones will be ordered for transcribers.,,,0.9,"[716, 759, 767]"
+Bmr027,action_items,Talk to the lawyer about the legal status and requirements of the consent review process.,Postdoc A,,0.9,"[250, 252]"
+Bmr027,action_items,"Send out a follow-up email regarding the consent review process, specifying a deadline and asking recipients to confirm receipt of the email.",Grad F,,0.9,"[395, 397]"
+Bmr027,action_items,Email out the brand and model number of the recommended earphones.,Postdoc A,,0.95,"[767, 768]"
+Bmr027,risks,,,,0.9,"[217, 218]"
+Bro003,decisions,Everyone attending the field trip will meet in front at 6:00 AM.,,,0.95,"[36, 66]"
+Bro003,decisions,Use HTK version 3.0 across the board.,,,0.95,[203]
+Bro012,decisions,Change the website picture/illustration regarding reverberation.,,,0.9,"[31, 323]"
+Bro012,commitments,Look into CVS over the web and pass the information on to everybody.,PhD B,,0.95,[311]
+Bro012,action_items,Check whether Feacalc is being used with the high-pass filter option.,Grad E,,0.9,"[12, 13]"
+Bro012,action_items,Talk about coming up with a better demonstration of the effects of reverberation for the web page.,,,0.9,[323]
+Bro012,risks,,,,0.95,"[2, 4]"
+Bro012,risks,,,,0.9,"[70, 94]"
+Bro012,risks,,,,0.9,"[491, 493, 654]"
+Bro012,unanswered_questions,What cut-off frequency is used for the high-pass filter?,,,0.85,"[15, 18]"
+Bro012,unanswered_questions,Which VAD did Pratibha use in the experiment comparing VADs on reference features?,,,0.9,"[522, 524]"
+Bro014,unanswered_questions,What machine name corresponds to the five-processor machine running Linux?,,,0.9,[86]
+Bro014,unanswered_questions,When is the next Aurora deadline?,,,0.9,[792]
+Bro016,commitments,"Do the experiment to run the front-end with default insertion penalties, tweak them, and see how much of a difference it makes.",PhD F,next week,0.9,"[30, 46]"
+Bro017,objections,,,,0.9,"[43, 45]"
+Bro017,objections,,,,0.9,"[66, 68, 69]"
+Bro017,risks,,,,0.9,"[278, 280]"
+Bro017,unanswered_questions,Are people going to be allowed to run new algorithms for the upcoming evaluation?,,,0.85,[52]
+Bro017,unanswered_questions,Are people supposed to rerun their systems for the next meeting/evaluation?,,,0.85,"[244, 245]"
+Bro018,action_items,Do a test adding together the probabilities of all voiced phones and all unvoiced phones from the 56-output MLP and see the results compared to the three-output net.,PhD D,,0.9,"[150, 154, 160]"
+Bro018,action_items,Look into trying what happens if the parameter in the France Telecom proposal code is moved.,PhD D,,0.85,"[0, 191, 222]"
+Bro018,unanswered_questions,What is the meaning and exact reason for taking the specific constant in the expression of lower energy in the France Telecom proposal?,,,0.9,"[0, 191, 207]"
+Bro019,risks,,,,0.9,"[66, 68]"
+Bro019,risks,,,,0.95,[107]
+Bro019,unanswered_questions,How does the eviction mechanism work when someone is logged into a machine from home and not hitting keys?,,,0.9,"[108, 110, 112]"
+Bro022,risks,,,,0.9,[72]
+Bro022,unanswered_questions,Why did the near-mike performance worsen from one point two percent to two point four percent using the mean subtraction approach with the SRI system?,,,0.9,[72]
+Bro024,commitments,I 'll try to make the plots and then put some postscript up on my web page . And I 'll mention it in my status report if people wanna take a look .,Grad C,,0.9,[26]
+Bro024,commitments,I will do that next week .,PhD H,next week,0.9,"[981, 985]"
+Bro024,risks,,,,0.85,"[15, 18]"
+Bro024,risks,,,,0.9,[193]
+Bro024,risks,,,,0.9,"[199, 200]"
+Bro024,risks,,,,0.9,"[346, 348]"
+Bro024,unanswered_questions,What is the optimal way to set up the mean subtraction approach regarding training data amount?,,,0.8,"[19, 26]"
+Bro024,unanswered_questions,Where does the compression and decoding delay come from?,,,0.8,[510]
+Bro026,decisions,Fix the noise suppression configuration (Wiener filtering on FFT bins with two-step smoothing) for the moment and work on other aspects of the system.,PhD A,,0.95,[107]
+Bro026,commitments,Try remotely accessing the CVS using SSH today.,PhD D,today,0.95,"[37, 39]"
+Bro026,commitments,Add the second stream to the VAD and start with the feature net.,PhD D,,0.9,[307]
+Bro026,action_items,Point Chuck to the web site and mails corresponding to the Wall Street Journal evaluation system.,PhD D,,0.95,"[326, 346]"
+Bro026,action_items,"Send an email to Joe about scaling characteristics of different features, CCing Hari.",PhD E,,0.95,"[461, 463, 467, 471]"
+Bro026,risks,,,,0.9,[369]
+Bro027,action_items,Double check the issue about feature sets adjustments with Joe and ask him again.,PhD A,,0.9,"[131, 133]"
+Bro027,risks,,,,0.85,"[686, 699]"
+Bro028,decisions,Decided on a total latency number of 220 milliseconds for the Aurora system.,,,0.95,[16]
+Bro028,commitments,Check how much memory the tandem network requires.,PhD D,,0.95,"[57, 59]"
+Bro028,commitments,Try to run the Mississippi State LVCSR system scripts with just the single CPU version and on a smaller data set.,PhD A,,0.95,"[321, 327]"
+Bro028,risks,,,,0.9,"[50, 53]"
+Bro028,risks,,,,0.9,[136]
+Bro028,unanswered_questions,What is the exact evaluation schedule or deadline in weeks?,,,0.85,"[336, 337, 338]"
+Bro028,unanswered_questions,Will word insertion penalties and other simple tuning parameters be allowed to be tuned for the Wall Street Journal task?,,,0.9,"[360, 369, 373]"
+Buw001,decisions,Try using CrossPads in data collection if available.,,,0.9,"[0, 620]"
+Buw001,decisions,Collect digital pictures of tables and boards to set the context of meetings when possible.,,,0.95,"[947, 949]"
+Buw001,decisions,Go around the room at the end of meetings to have willing participants mention something interesting that was discussed.,,,0.95,"[947, 949]"
+Buw001,action_items,Find out about human subject requirements.,,,0.9,"[1069, 1071]"
+Buw001,action_items,Send URL information for web pages to put together an overall cover.,,,0.9,"[1071, 1073]"
+Buw001,action_items,Look at web pages and clean them up by mid-July.,,mid-July,0.9,"[1073, 1077, 1079]"
+Buw001,action_items,Put together a mailing list.,,,0.9,"[1082, 1084, 1086]"
+Buw001,action_items,Email Adam or Jane about getting the text data and transcriptions.,Professor A,,0.9,"[1088, 1091, 1099]"
+Buw001,action_items,Email Picheny shipping address.,Professor A,,0.9,"[1161, 1163]"
+Buw001,action_items,"Email Picheny a pointer to the web pages currently available, particularly regarding the recording room setup.",Professor D,,0.9,"[1163, 1165]"
+Buw001,action_items,Contact Landay to request CrossPads.,Professor D,,0.9,"[1255, 1256]"
+Buw001,risks,,,,0.9,"[82, 84]"
+Buw001,risks,,,,0.9,"[489, 493]"
+covid_0,commitments,Continue to work hard for Canadians to supply the personal protective equipment that they need and provide updated numbers on the website.,Hon. Anita Anand,,0.9,"[110, 111]"
+covid_0,objections,,,,0.9,"[42, 44, 76, 81, 146, 147]"
+covid_0,risks,,,,0.9,[164]
+covid_0,unanswered_questions,How much of a bonus was Mr. Lavalle paid recently when he left on April 2?,,,0.9,"[138, 139]"
+covid_0,unanswered_questions,When will the government provide its economic update?,,,0.9,"[287, 288]"
+covid_10,objections,,,,0.95,[1]
+covid_10,objections,,,,0.95,[7]
+covid_10,objections,,,,0.95,"[9, 13, 15]"
+covid_10,objections,,,,0.95,"[21, 23]"
+covid_10,objections,,,,0.95,"[25, 27]"
+covid_10,objections,,,,0.95,[65]
+covid_10,objections,,,,0.95,[132]
+covid_10,risks,,,,0.95,[6]
+covid_10,risks,,,,0.95,[5]
+covid_10,risks,,,,0.9,[13]
+covid_10,risks,,,,0.95,"[93, 139, 141]"
+covid_10,risks,,,,0.95,"[203, 205]"
+covid_10,unanswered_questions,Which of the days in the coming weeks will the government keep its promise to seniors to increase old age security?,,,0.95,[53]
+covid_10,unanswered_questions,What is the government going to do to address sole proprietors who are currently falling through the cracks of benefit packages?,,,0.95,[59]
+covid_10,unanswered_questions,Will the government make the CERB a universal benefit to ensure that all Canadians who need help get help?,,,0.95,[192]
+covid_2,objections,,,,0.9,"[5, 7]"
+covid_2,objections,,,,0.9,"[11, 13]"
+covid_2,objections,,,,0.9,"[21, 23]"
+covid_2,objections,,,,0.9,"[26, 28]"
+covid_2,objections,,,,0.9,"[49, 53]"
+covid_2,objections,,,,0.9,"[59, 65]"
+covid_2,objections,,,,0.9,"[83, 91]"
+covid_2,objections,,,,0.9,"[142, 144]"
+covid_2,risks,,,,0.9,[5]
+covid_2,risks,,,,0.9,"[97, 98]"
+covid_2,risks,,,,0.9,"[121, 125]"
+covid_2,unanswered_questions,Did the government instruct any government department to ignore red flags or warnings of fraudulent cases?,,,0.9,"[7, 8]"
+covid_2,unanswered_questions,How many emergency response benefit cheques have been sent to people whose applications have been flagged as fraudulent?,,,0.9,"[36, 42]"
+covid_2,unanswered_questions,How many prisoners have received a Canada emergency response benefit cheque?,,,0.9,"[49, 54]"
+covid_2,unanswered_questions,Will the government give the Auditor General the funding he requested to get back to doing the same number of audits he did under the previous government?,,,0.9,"[65, 66]"
+covid_3,risks,,,,1.0,[9]
+covid_3,risks,,,,1.0,[11]
+covid_3,risks,,,,1.0,[14]
+covid_3,risks,,,,1.0,[20]
+covid_3,risks,,,,1.0,[69]
+covid_3,risks,,,,1.0,[203]
+covid_3,unanswered_questions,When will the economic update take place?,,,1.0,"[47, 49]"
+covid_3,unanswered_questions,How much has the government spent in the last three months?,,,1.0,[67]
+covid_3,unanswered_questions,Will the government send health care transfer money free of conditions?,,,1.0,"[71, 73]"
+covid_3,unanswered_questions,Will the government commit to ensuring that de-escalation receives priority in the RCMP?,,,1.0,[86]
+covid_3,unanswered_questions,"Will the Prime Minister or the Liberal government commit to ensuring that at the federal level, racial profiling, street checks and carding are expressly prohibited?",,,1.0,[88]
+covid_3,unanswered_questions,When will the Minister of Foreign Affairs show up to answer questions about his personal debt to the Chinese government?,,,1.0,"[118, 120, 122]"
+covid_3,unanswered_questions,Will folks like Jean be allowed to cross the border to check on their properties this summer?,,,1.0,[131]
+covid_3,unanswered_questions,When will the minister make a decision on Trikafta for commercial use?,,,1.0,[293]
+covid_4,objections,,,,0.9,[4]
+covid_4,objections,,,,0.9,"[11, 13, 15, 17, 67, 69, 71]"
+covid_4,objections,,,,0.9,"[29, 31]"
+covid_4,risks,,,,0.9,[8]
+covid_4,risks,,,,0.9,[3]
+covid_4,risks,,,,0.9,"[104, 106, 108]"
+covid_4,unanswered_questions,Did the Prime Minister or his minister sign off on the memo issued by the deputy minister regarding potential fraud flags in benefit applications?,,,0.9,"[15, 17, 19, 21]"
+covid_4,unanswered_questions,"If an employee is called back to work and wants to reimburse the CERB, must they reimburse $500 for each week worked or the entire monthly amount of $2,000?",,,0.9,"[75, 77, 79]"
+covid_5,objections,,,,0.95,[14]
+covid_5,risks,,,,0.9,[79]
+covid_5,risks,,,,0.9,[36]
+covid_5,unanswered_questions,How many projects submitted by provinces are currently waiting for approval from the federal government?,,,0.9,"[45, 47, 48]"
+covid_5,unanswered_questions,What will be the exact cost of the firearm buyback program?,,,0.9,"[103, 105]"
+covid_6,objections,,,,0.95,[10]
+covid_6,risks,,,,0.95,[9]
+covid_6,risks,,,,0.9,[7]
+covid_6,unanswered_questions,Is the Prime Minister going to make the change to the criteria for the Canada emergency business account so that small businesses that don't happen to have a business bank account could qualify?,,,0.9,[39]
+covid_6,unanswered_questions,"Will companies that have acquired another company still be allowed to use the wage subsidy to keep workers on the job, yes or no?",,,0.9,[41]
+covid_6,unanswered_questions,Will the government introduce some flexibility to this program [CECRA] to help more businesses survive?,,,0.9,[45]
+covid_6,unanswered_questions,What is Canada's deficit?,,,0.9,"[133, 135]"
+covid_7,objections,,,,1.0,[3]
+covid_7,objections,,,,1.0,[9]
+covid_7,objections,,,,1.0,[39]
+covid_7,objections,,,,1.0,[161]
+covid_7,risks,,,,0.95,[34]
+covid_7,risks,,,,0.9,[284]
+covid_7,unanswered_questions,Could the Deputy Prime Minister tell me how much it cost to develop this online AgriStability calculator?,,,0.9,"[49, 50]"
+covid_7,unanswered_questions,"Will the Liberal Party of Canada pay back the money it took from the wage subsidy program, yes or no?",,,0.9,[60]
+covid_7,unanswered_questions,Where is the money toward sexual exploitation and human trafficking?,,,0.9,"[94, 96]"
+covid_7,unanswered_questions,Will this government condemn that law [national security bill for Hong Kong] today?,,,0.9,"[126, 127]"
+education_0,commitments,Write to the committee regarding a review of unexpected deaths and potential effects of restrictions on children and young people's mental health before the end of the month.,Vaughan Gething AM,before the end of this month,0.95,[43]
+education_0,commitments,Provide a note on funding for third sector services and hospices.,Julie Morgan AM,,0.9,[55]
+education_0,commitments,Provide a note on the task and finish group reporting timeline.,Julie Morgan AM,,0.9,[97]
+education_0,risks,,,,0.95,[14]
+education_0,risks,,,,0.95,"[21, 25]"
+education_0,risks,,,,0.95,[60]
+education_0,risks,,,,0.95,"[100, 108]"
+education_14,decisions,Exclude the public for the remainder of the meeting under Standing Order 17.42.,,,1.0,[129]
+education_14,objections,,,,0.95,[28]
+education_14,objections,,,,0.95,[46]
+education_14,objections,,,,0.95,"[112, 117]"
+education_14,risks,,,,0.9,[21]
+education_14,risks,,,,0.95,[31]
+education_15,commitments,To take back the committee's points regarding foundation phase staffing and curriculum integration to look at how to move from the consultation into the final strategy.,Dr Frank Atherton,,0.9,"[83, 85]"
+education_15,objections,,,,0.9,"[8, 11, 14]"
+education_15,objections,,,,0.9,"[29, 31]"
+education_15,risks,,,,0.95,[1]
+education_15,unanswered_questions,What is the exact Welsh consequential figure from the sugar soft drinks levy?,,,0.9,"[24, 25]"
+education_17,objections,,,,0.95,"[2, 6]"
+education_17,objections,,,,0.95,"[6, 22, 28]"
+education_17,objections,,,,0.95,"[28, 45]"
+education_17,objections,,,,0.95,"[46, 52]"
+education_17,risks,,,,0.9,[108]
+education_18,action_items,Publish the summary of technical consultation responses regarding post-compulsory education and training reforms by the end of the week.,Kirsty Williams,end of the week,0.95,[51]
+education_18,action_items,"Share the review report from the Wales Institute of Social and Economic Research, Data and Methods (WISERD) or similar evaluation documents as discussed regarding regional skills partnerships / Graystone review.",Huw Morris,,0.9,"[159, 160]"
+education_18,action_items,Write to the committee with an update on the timescale and proposals regarding the university student mental health charter and well-being strategic approach.,Kirsty Williams,,0.9,"[171, 172]"
+education_18,objections,,,,0.9,[12]
+education_18,objections,,,,0.9,"[61, 62]"
+education_18,objections,,,,0.9,"[99, 100]"
+education_18,objections,,,,0.9,"[174, 176]"
+education_18,risks,,,,0.85,[70]
+education_18,risks,,,,0.85,"[182, 183]"
+education_19,risks,,,,0.95,[4]
+education_19,risks,,,,0.95,"[8, 32]"
+education_19,risks,,,,0.9,[8]
+education_19,risks,,,,0.9,[33]
+education_19,risks,,,,0.9,"[35, 36]"
+education_22,action_items,Write to the committee regarding the question about summer-born children and eligibility terms.,Huw Irranca-Davies,,0.9,"[135, 136]"
+education_22,objections,,,,0.9,"[2, 4]"
+education_22,objections,,,,0.9,"[56, 58]"
+education_22,objections,,,,0.9,"[34, 36]"
+education_22,objections,,,,0.9,"[103, 107]"
+education_22,risks,,,,0.9,"[22, 77]"
+education_22,risks,,,,0.9,"[24, 80]"
+education_22,unanswered_questions,"How many registered, licensed, and inspected grandparents who look after other people's children are there in constituencies?",,,0.9,"[13, 14]"
+education_23,action_items,Check the exact dates of meetings with Professor Mel Ainscow and report back to the committee,Steve Davies,,0.9,"[141, 142]"
+education_23,action_items,Provide figures for the numbers of staff who transitioned from the Schools Challenge Cymru programme into the consortia,Kirsty Williams AM,,0.9,"[133, 134]"
+education_23,risks,,,,0.9,"[38, 39]"
+education_23,risks,,,,0.9,"[71, 72, 73]"
+education_24,decisions,John Griffiths was appointed temporary Chair for the duration of the meeting in the absence of Lynne Neagle.,John Griffiths AM,,1.0,"[0, 1, 2]"
+education_24,action_items,Provide a note to the committee detailing specific schools and how much they have closed the attainment gap.,Meilyr Rowlands,,0.95,"[75, 76, 77]"
+education_24,action_items,"Provide further information and evidence regarding work done with looked-after children and adopted children, including exclusion rates, attendance, and effective practices.",Meilyr Rowlands,,0.95,"[93, 101, 102]"
+education_24,risks,,,,0.9,"[148, 149]"
+education_2,decisions,Close all schools in Wales from tomorrow for statutory education provision.,Kirsty Williams AM,,1.0,[1]
+education_2,decisions,Not proceed with the summer exam series.,Kirsty Williams AM,,1.0,"[1, 65]"
+education_2,action_items,Check whether the referral process for additional learning needs outcomes will be suspended or continued as normal.,Kirsty Williams AM,,0.9,"[122, 123]"
+education_2,action_items,Look into the ATT qualification and come back to the committee regarding its status.,Huw Morris,,0.9,"[71, 72]"
+education_2,risks,,,,0.9,[105]
+education_4,risks,,,,0.95,[1]
+education_4,risks,,,,0.9,"[10, 11, 13]"
+education_4,risks,,,,0.9,[205]
+education_4,unanswered_questions,What are the reasons why local authorities experience delays in children accessing EOTAS provision?,,,0.9,[53]
+education_4,unanswered_questions,What is the impact of home tuition on learners' well-being and how many young people are home-schooled given the lack of central data?,,,0.9,"[206, 207]"
+education_5,decisions,Change the name of the 'national evaluation and improvement toolkit' to the 'national evaluation and improvement resource'.,Kirsty Williams AM,,1.0,[9]
+education_5,commitments,Publish the latest OECD report on Welsh education on 23 March and make a statement to the Chamber on 24 March.,Kirsty Williams AM,24 March,1.0,[1]
+education_5,commitments,Introduce the national evaluation and improvement resource across the system at the start of the new academic year in September 2020.,Kirsty Williams AM,September 2020,1.0,"[4, 5]"
+education_5,action_items,Write to Neath Port Talbot to ask them to demonstrate how they are going to meet their functions if they pull out of ERW.,Steve Davies,,1.0,"[80, 81]"
+education_5,action_items,Send a note regarding when the permanent performance measures and qualifications review is expected to be completed.,Kirsty Williams AM,,0.9,"[119, 120]"
+education_5,objections,,,,0.95,[73]
+education_5,risks,,,,0.95,[34]
+education_5,risks,,,,0.9,[54]
+education_7,commitments,Send through the last term's data on children accessing the childcare offer in Welsh only.,Nicola Edwards,,0.9,"[85, 87]"
+education_7,commitments,Share more detail on comparative costings for the childcare system once worked up.,Jo-Anne Daniels,,0.9,"[203, 204]"
+education_7,objections,,,,0.9,"[46, 49]"
+education_7,objections,,,,0.9,[151]
+education_7,risks,,,,0.9,[76]
+education_7,unanswered_questions,How much money has the Welsh Government secured for early years from the most recent UK Government announcement?,,,0.9,"[118, 119]"
+education_9,decisions,To publish the final version of the curriculum in January 2020.,Kirsty Williams AM,,0.95,"[0, 4, 5]"
+education_9,decisions,To introduce the Education Bill following the Easter recess.,Kirsty Williams AM,,0.95,[37]
+education_9,decisions,To include statutory provisions for the 'what matters' statements within the legislation.,Kirsty Williams AM,,0.95,[10]
+education_9,decisions,To include in the legislation provision for a statutory framework setting out the approach to progression in each area of learning and experience (AoLE).,Kirsty Williams AM,,0.95,[10]
+education_9,action_items,Provide the committee with a list of the new innovation schools.,Kirsty Williams AM,,0.95,"[100, 101]"
+education_9,objections,,,,0.9,[31]
+education_9,objections,,,,0.9,"[31, 36]"
+education_9,risks,,,,0.9,"[48, 49]"
+education_9,risks,,,,0.9,"[51, 52]"
+ES2002b,decisions,Exclude teletext functionality from the remote control.,,,1.0,"[6, 15]"
+ES2002b,decisions,Restrict the remote control to control only the television.,,,1.0,"[8, 15]"
+ES2002b,decisions,Incorporate the corporate color and slogan into the new design.,,,1.0,"[10, 15]"
+ES2002b,decisions,Target the 15 to 35 age bracket.,,,0.95,"[266, 273]"
+ES2002b,decisions,Stay with traditional infra-red transmission.,,,0.95,"[448, 450]"
+ES2002b,decisions,Use regular batteries rather than a rechargeable charging unit.,,,0.95,"[499, 501]"
+ES2002b,decisions,"Organize controls into three buckets: audio, video, and device.",,,0.95,"[552, 558, 559]"
+ES2002b,objections,,,,0.9,"[307, 348, 358]"
+ES2002b,risks,,,,0.9,[8]
+ES2002b,risks,,,,0.85,[463]
+ES2002b,unanswered_questions,Whether the corporate slogan should be actually written on the remote control or just embodied as an idea.,,,0.9,"[11, 15]"
+ES2002b,unanswered_questions,What the exact retail price of the remote control will be.,,,0.85,"[217, 219]"
+ES2002d,decisions,Use a battery for power due to cost restraints instead of kinetic power.,,,0.95,"[149, 150, 151, 154, 155]"
+ES2002d,decisions,Use a double-curved plastic case.,,,0.95,"[167, 170, 208]"
+ES2002d,decisions,"Remove the LCD display panel and the advanced chip to save costs, replacing the advanced chip with a regular chip and using the TV screen to display functions.",,,0.95,"[242, 244, 245, 246, 301]"
+ES2002d,decisions,Use normal-coloured buttons to cut costs.,,,0.95,"[282, 285, 287]"
+ES2002d,objections,,,,0.9,"[410, 412]"
+ES2002d,objections,,,,0.9,"[591, 593, 603]"
+ES2002d,risks,,,,0.95,"[212, 215, 242]"
+ES2003d,decisions,Keep the LCD display despite the cost it incurs.,,,0.95,"[159, 160]"
+ES2003d,decisions,Go with a plastic solid case to keep within budget.,,,0.95,"[85, 160]"
+ES2003d,decisions,Adopt a single-curved design that still allows articulation.,,,0.9,"[186, 188]"
+ES2003d,decisions,Use a special yellow color for the case.,,,0.9,"[236, 237, 240]"
+ES2003d,objections,,,,0.9,[26]
+ES2003d,objections,,,,0.9,[39]
+ES2003d,objections,,,,0.85,"[418, 419]"
+ES2003d,risks,,,,0.95,"[85, 210]"
+ES2003d,risks,,,,0.9,"[116, 117]"
+ES2003d,unanswered_questions,"Whether a point five Euro cost for a push button applies per button or generally, and whether the joystick/scroll wheel pricing is correct.",,,0.8,"[220, 222]"
+ES2004b,decisions,The control will be for TV only.,,,0.95,"[130, 133]"
+ES2004b,decisions,Teletext will not be used.,,,0.95,[130]
+ES2004b,decisions,The remote will use rechargeable batteries with a docking station.,,,0.95,"[399, 400, 402]"
+ES2004b,objections,,,,0.9,[156]
+ES2004b,objections,,,,0.9,"[251, 255]"
+ES2004b,risks,,,,0.95,"[49, 119]"
+ES2004c,decisions,Use kinetic charging,,,0.95,"[418, 419, 546]"
+ES2004c,decisions,Use watch-type batteries,,,0.95,"[456, 457, 546]"
+ES2004c,decisions,Use an LCD display on the top side of the flip-top,,,0.95,"[474, 475, 546]"
+ES2004c,decisions,Use rubberised buttons on the bottom side,,,0.95,"[474, 475, 546]"
+ES2004c,decisions,Use a plastic case housing,,,0.95,"[478, 479, 546]"
+ES2004c,decisions,Use a rubberized sleeve cover for the case,,,0.95,"[491, 537, 538]"
+ES2004c,decisions,Use fruit and vegetable colors for the rubber cover,,,0.95,"[491, 546]"
+ES2004c,risks,,,,0.9,"[433, 550]"
+ES2004c,unanswered_questions,Will voice recognition be financially feasible to incorporate?,,,0.9,[398]
+ES2004d,decisions,Use a kinetic charger/battery.,,,0.95,"[10, 12, 65]"
+ES2004d,decisions,Use a standard chip.,,,0.95,"[10, 12, 82]"
+ES2004d,decisions,Include a stand-by function.,,,0.95,[12]
+ES2004d,decisions,"Make the case material soft, rubbery, and changeable.",,,0.95,"[12, 48, 222]"
+ES2004d,decisions,Use buttons with a combination of LCD and rubber.,,,0.95,"[12, 94, 96]"
+ES2004d,decisions,Use bright funky designs inspired by fruit.,,,0.95,"[12, 126]"
+ES2004d,decisions,Use anti-RSI rubber buttons.,,,0.95,"[12, 252]"
+ES2004d,decisions,Remove the voice recognition system from the standard product to meet the budget.,,,0.9,"[508, 509]"
+ES2004d,risks,,,,0.9,[309]
+ES2005b,decisions,Drop teletext from the remote control design.,,,0.95,"[332, 350]"
+ES2005b,decisions,Incorporate corporate colour yellow and the slogan 'put the fashion in electronics' into the remote control design.,,,0.95,"[336, 535, 619]"
+ES2005b,decisions,Use speech recognition for the remote control.,,,0.95,[523]
+ES2005b,decisions,Limit the number of buttons on the remote control.,,,0.95,[527]
+ES2005b,decisions,Adopt an organic design for the remote control.,,,0.95,[527]
+ES2005b,decisions,Include button programmability options.,,,0.9,"[311, 529]"
+ES2005b,decisions,Include glow-in-the-dark material trimming as a gimmick.,,,0.9,"[477, 530]"
+ES2005b,action_items,Find out what people think about removing teletext or whether people require a teletext option in a remote control.,Marketing,,0.9,"[363, 364, 365]"
+ES2005b,action_items,Put all reports in the project documents folder.,,,0.85,"[536, 537, 538]"
+ES2005b,objections,,,,0.9,"[409, 410, 412]"
+ES2005b,objections,,,,0.9,"[488, 493, 495]"
+ES2005b,risks,,,,0.9,"[462, 463, 466]"
+ES2005c,decisions,Incorporate speech recognition software into the remote control design.,,,0.9,"[181, 182, 186]"
+ES2005c,decisions,Use a rechargeable battery system.,,,0.9,"[679, 699]"
+ES2005c,action_items,Work on giving a model in clay for the next meeting.,,in half an hour,0.95,"[743, 745]"
+ES2005c,risks,,,,0.85,"[130, 231]"
+ES2006a,unanswered_questions,Whether there is any special feature that we want to have this remote control have as opposed to the already existing ones?,,,0.9,[234]
+ES2006d,decisions,Use the approximate shape and color of a banana for the remote control design.,,,0.95,"[30, 31]"
+ES2006d,decisions,Make the remote control case out of rubber.,,,0.95,"[55, 508]"
+ES2006d,decisions,Put a locator dot on the TV to make the remote locatable with a beeping sound.,,,0.9,"[206, 207, 306, 679, 681]"
+ES2006d,decisions,Remove the sample sensor from the design to cut production costs and stay within the budget.,,,0.95,"[574, 575, 584]"
+ES2006d,decisions,Remove the scroll wheel and replace it with push buttons on the side to stay within the budget.,,,0.95,"[605, 634, 637]"
+ES2006d,action_items,Put the evaluation scores in the project documents file.,Marketing,,0.95,"[858, 859]"
+ES2006d,action_items,Complete the final questionnaire and meeting summary when they are sent.,Project Manager,,0.9,[903]
+ES2006d,risks,,,,0.85,"[226, 229]"
+ES2007a,objections,,,,0.85,"[0, 159, 199, 201]"
+ES2007a,risks,,,,0.9,"[169, 172, 220]"
+ES2007b,decisions,Use infrared signal for the remote control transmission.,,,0.95,"[288, 292]"
+ES2007b,decisions,Use batteries as the energy source for the remote control.,,,0.95,"[288, 292]"
+ES2007b,decisions,Scrap voice activation for the remote control.,,,0.9,"[251, 253]"
+ES2007b,action_items,E-mail e-mail addresses to the project manager,,,0.9,"[306, 314]"
+ES2007b,risks,,,,0.9,"[255, 259]"
+ES2008d,decisions,Choose the potato (or mango) shape for the remote control prototype.,,,0.95,"[150, 151, 152]"
+ES2008d,decisions,Do not worry about the remote losing feature for now and rely on bright designs to stand out.,,,0.9,[69]
+ES2008d,decisions,Add an extra button on the top for on/off.,,,0.9,"[74, 75, 76]"
+ES2008d,decisions,Include an 'RR' corporate logo on the remote control.,,,0.95,"[352, 353]"
+ES2008d,decisions,Keep the remote control case material as rubber.,,,0.9,[479]
+ES2008d,decisions,Use six buttons on the remote interface.,,,0.9,[481]
+ES2008d,objections,,,,0.85,"[294, 299, 300]"
+ES2008d,objections,,,,0.9,[526]
+ES2008d,risks,,,,0.85,[286]
+ES2010c,decisions,Decided against using a charging base with rechargeable batteries for the remote.,,,0.9,"[166, 169, 210, 211]"
+ES2010c,decisions,Decided to use batteries (instead of a charging base).,,,0.9,"[166, 202]"
+ES2010c,decisions,Decided to incorporate a finding/locating device in the remote.,,,0.9,"[187, 207, 292]"
+ES2010c,decisions,Decided to use a hard base plastic with latex covers for the remote casing.,,,0.9,"[268, 282, 284]"
+ES2010c,decisions,Decided to use a key-phrase for the voice-activated locator feature rather than continuous voice activation or whistling.,,,0.9,"[300, 309, 312]"
+ES2010c,decisions,Decided to use yellow for the button illumination color.,,,0.9,"[470, 471, 480]"
+ES2010c,action_items,Work together on a prototype using modeling clay.,,,0.9,[489]
+ES2010c,objections,,,,0.9,[197]
+ES2010c,objections,,,,0.9,"[306, 309]"
+ES2010c,objections,,,,0.9,[418]
+ES2010c,risks,,,,0.9,[123]
+ES2010c,unanswered_questions,What size batteries (double-A or triple-A) should be used?,,,0.9,[329]
+ES2010d,decisions,Use a lithium battery for the remote,,,0.95,"[216, 219]"
+ES2010d,decisions,Use a push-button interface rather than a scroll wheel,,,0.95,"[247, 249]"
+ES2010d,objections,,,,0.9,[304]
+ES2010d,objections,,,,0.9,"[305, 308]"
+ES2010d,objections,,,,0.9,[406]
+ES2011c,decisions,Use batteries as the energy source for the remote.,,,0.9,"[472, 473, 483]"
+ES2011c,action_items,Do two prototypes and ask users what the best is.,,,0.85,[402]
+ES2011c,objections,,,,0.9,"[267, 283, 306]"
+ES2011c,risks,,,,0.9,"[127, 130]"
+ES2011c,unanswered_questions,Where are we gonna have the logo somewhere on it?,,,0.85,[442]
+ES2011c,unanswered_questions,What does chip on print mean?,,,0.9,[502]
+ES2012c,decisions,Use a custom-designed chip to incorporate voice recognition functionality.,,,0.95,"[84, 88]"
+ES2012c,decisions,Include manual controls/buttons in addition to voice recognition.,,,0.95,"[416, 420]"
+ES2012c,decisions,Use a slider control for volume adjustment.,,,0.95,"[173, 189]"
+ES2012c,decisions,Adopt a long-term battery source guaranteed for five to ten years.,,,0.95,"[494, 499]"
+ES2012c,decisions,Incorporate interchangeable covers/cases to allow personalization and align with fashion trends.,,,0.95,"[502, 503]"
+ES2012c,action_items,Produce a model/prototype based on the discussion for the group to look at.,,,0.9,"[7, 482]"
+ES2012c,action_items,Think about how to market the remote control as a concept rather than just a simple remote control.,Andrew,,0.9,[490]
+ES2012c,risks,,,,0.9,"[23, 27, 55]"
+ES2013b,decisions,The remote control will be for televisions only.,,,0.95,"[29, 30]"
+ES2013b,action_items,Do the components research and preparation for the next meeting.,Kate,,0.9,[352]
+ES2013b,action_items,Do the user interface work for the next meeting.,Steph,,0.9,[352]
+ES2013b,action_items,Do the trend-watching work for the next meeting.,,,0.9,[352]
+ES2013b,objections,,,,0.9,"[149, 150]"
+ES2013b,objections,,,,0.85,"[250, 253]"
+ES2013b,unanswered_questions,Whether a rechargeable internal battery and dock is within the price range.,,,0.85,"[180, 181, 233]"
+ES2013c,decisions,Use the kinetic energy source if at all possible.,,,0.9,"[329, 330]"
+ES2013c,action_items,Work on the look and feel design.,Industrial Designer,,0.95,"[411, 412]"
+ES2013c,action_items,Work on the user interface design.,User Interface,,0.95,"[411, 412]"
+ES2013c,action_items,Work on product evaluation.,Marketing,,0.95,"[411, 412]"
+ES2013c,action_items,Play with modeling clay / Play-Doh to do a prototype.,,,0.85,"[412, 414, 421]"
+ES2013c,objections,,,,0.9,"[72, 74]"
+ES2013c,risks,,,,0.9,"[337, 339]"
+ES2013d,decisions,Use kinetic energy to power the device.,,,0.9,"[208, 209, 210, 211, 212, 260]"
+ES2013d,decisions,Use a simple electronic chip on print component.,,,0.9,"[261, 262]"
+ES2013d,decisions,Use a single-curved case shape.,,,0.9,"[282, 286, 289]"
+ES2013d,decisions,Use plastic for the case material.,,,0.9,"[291, 294, 295]"
+ES2013d,decisions,Use a push button interface.,,,0.9,"[301, 303]"
+ES2013d,decisions,Use a special color of black for the button supplements.,,,0.9,"[309, 310]"
+ES2013d,decisions,Use plastic for the buttons.,,,0.9,"[318, 321]"
+ES2013d,objections,,,,0.9,[176]
+ES2013d,risks,,,,0.85,[79]
+ES2014b,decisions,The remote control will be for televisions only.,,,0.95,"[6, 218]"
+ES2014b,decisions,Teletext is removed from the remote control.,,,0.95,"[304, 310]"
+ES2014b,decisions,The remote control will include a feature to find it when lost by clapping.,,,0.95,"[299, 301]"
+ES2014b,decisions,"The remote control will have ten number buttons, enabling multiple digits through a delay.",,,0.95,"[313, 325]"
+ES2014b,decisions,Detailed functions will be kept hidden at the back in a hidden panel.,,,0.95,"[378, 400]"
+ES2014b,objections,,,,0.9,"[165, 174]"
+ES2014b,objections,,,,0.9,[179]
+ES2014b,objections,,,,0.9,"[179, 180]"
+ES2014b,risks,,,,0.9,"[218, 229]"
+ES2014b,unanswered_questions,What is the exact corporate colour scheme and slogan required by management?,,,0.9,"[67, 68, 70]"
+ES2014d,decisions,Use a plastic case instead of a rubber case for the remote control,,,0.95,"[403, 404, 420]"
+ES2014d,decisions,Keep the speech recognition and kinetic energy features on the remote,,,0.9,"[419, 523, 524]"
+ES2014d,decisions,Use a cherry design at the top of the remote control,,,0.9,"[19, 21, 630]"
+ES2014d,risks,,,,0.9,"[52, 85]"
+ES2015b,decisions,"Make the remote control a single-function device specifically for the television, excluding other entertainment devices like DVDs and VCRs.",,,0.98,"[0, 305]"
+ES2015b,decisions,Exclude teletext functionality from the remote control.,,,0.98,"[305, 372]"
+ES2015b,decisions,Do not include an LCD screen on the remote control.,,,0.95,"[346, 349]"
+ES2015b,decisions,Do not include voice recognition on the remote control.,,,0.95,"[351, 352]"
+ES2015b,decisions,Include an alarm or buzzer system (using a vibration or beeping noise) to help locate the remote control in the room.,,,0.95,"[385, 395]"
+ES2015b,decisions,Use lighting up buttons with a self-timed feature rather than glow-in-the-dark material.,,,0.95,"[561, 562]"
+ES2015b,decisions,Incorporate interchangeable faceplates for the remote control.,,,0.95,"[587, 609]"
+ES2015b,action_items,Investigate the financial implications and costs of the environmental shape-memory alloy recycling approach.,,,0.85,"[49, 52]"
+ES2015b,action_items,Research the power source and connection for the locator device/adhesive alarm component.,,,0.85,"[434, 436]"
+ES2015b,objections,,,,0.9,"[97, 99]"
+ES2015b,objections,,,,0.9,"[228, 282]"
+ES2015b,objections,,,,0.9,"[548, 550]"
+ES2015b,risks,,,,0.9,"[50, 51]"
+ES2015b,risks,,,,0.85,"[461, 463]"
+ES2015b,unanswered_questions,Does teletext exist in countries outside of the U.K. and North America?,,,0.9,"[363, 365]"
+ES2015c,decisions,Use a kinetic energy source for the remote control,,,0.95,"[444, 446]"
+ES2015c,decisions,Use pushbuttons rather than scroll buttons or an LCD screen,,,0.95,"[484, 486]"
+ES2015c,decisions,Use a regular (medium) chip,,,0.95,"[499, 500]"
+ES2015c,decisions,Use a plastic case with a rubber coating and interchangeable plates,,,0.95,"[516, 518, 521]"
+ES2015c,decisions,Use a command interface for the remote control,,,0.95,"[527, 531]"
+ES2015c,decisions,Adopt a fruit and vegetable theme for the design,,,0.9,"[660, 662]"
+ES2015c,objections,,,,0.9,"[377, 382]"
+ES2015c,objections,,,,0.9,[140]
+ES2016c,decisions,Use basic batteries as the energy source.,,,0.95,"[102, 105, 238]"
+ES2016c,decisions,Use a plastic case.,,,0.9,"[120, 256]"
+ES2016c,decisions,Add rubber lamination or finger grips on the plastic case.,,,0.9,"[136, 256, 259]"
+ES2016c,decisions,Use an iPod-type scroll wheel.,,,0.9,[262]
+ES2016c,decisions,Incorporate an LCD screen.,,,0.9,"[120, 254]"
+ES2016c,action_items,Work on the user interface design,Ryan,,0.95,[269]
+ES2016c,action_items,Work on the look-and-feel design,Manuel,,0.95,[269]
+ES2016c,action_items,Perform a product evaluation,Corrine,,0.95,[270]
+ES2016c,risks,,,,0.9,[102]
+IS1000b,decisions,Decided to go for a more universal kind of remote control.,,,0.95,"[544, 546]"
+IS1000b,commitments,I'll just get this up.,Marketing,,0.9,[116]
+IS1000b,action_items,Send an email about the research webpage/data to the project manager.,Marketing,,0.9,"[46, 50, 51]"
+IS1000b,risks,,,,0.85,"[66, 71]"
+IS1000b,risks,,,,0.85,[143]
+IS1000b,unanswered_questions,How would we go about combating RSI?,,,0.8,[69]
+IS1001b,decisions,Focus the remote control design on televisions to ensure a quick time to market.,Project Manager,,0.9,[254]
+IS1001b,decisions,Exclude an LCD screen from the remote control to avoid unnecessary costs.,,,0.9,"[550, 555]"
+IS1001b,decisions,Exclude speech recognition from the remote control because development would take too long.,,,0.9,"[558, 560]"
+IS1001b,commitments,Send the presentation by email to the Project Manager before the next meeting.,Marketing,,0.85,"[116, 576]"
+IS1001b,commitments,Take notes during the meeting and put a summary in the shared folder.,Project Manager,,0.95,"[8, 572]"
+IS1001b,risks,,,,0.95,[320]
+IS1001c,decisions,Use a wheel to change channels.,,,0.95,"[2, 180, 225]"
+IS1001c,decisions,Include no LCD and no voice features for fast development and low cost.,,,0.95,[2]
+IS1001c,decisions,Use a spongy material for the remote control case.,,,0.95,"[146, 287]"
+IS1001c,decisions,Adopt a banana shape for the remote control.,,,0.95,"[249, 287, 320]"
+IS1001c,decisions,Place the wheel on the top and push buttons on the side of the remote control.,,,0.95,"[287, 320]"
+IS1001c,decisions,Use a standard battery.,,,0.95,"[270, 287]"
+IS1001c,action_items,Work together to prepare the prototype.,,,0.9,"[324, 325]"
+IS1001c,action_items,Work on final look and feel design and user interface design until the next meeting.,,,0.9,[323]
+IS1001c,objections,,,,0.95,"[9, 11, 15]"
+IS1001c,objections,,,,0.95,"[106, 107]"
+IS1002b,decisions,The remote will include teletext functionality.,,,0.9,"[149, 285]"
+IS1002b,action_items,Pedro and User Interface will look into how much a power cradle might increase costs.,,,0.9,"[263, 275]"
+IS1002b,objections,,,,0.9,"[6, 219]"
+IS1002b,risks,,,,0.85,[162]
+IS1002b,unanswered_questions,Can the product with a power cradle be manufactured for less than twelve-fifty per unit?,,,0.9,[269]
+IS1002c,decisions,Use a cradle (power cradle/dock) as the power source option.,,,0.95,"[0, 96, 101, 276, 277]"
+IS1002c,decisions,Use a plastic inner shell with a rubber outer shell for the case design.,,,0.95,"[0, 120, 289, 290]"
+IS1002c,decisions,Reject speech recognition for the remote.,,,0.95,"[0, 167, 168, 187]"
+IS1002c,decisions,Reject the LCD display option.,,,0.95,"[0, 294, 299, 301]"
+IS1002c,decisions,Include a scroll wheel on the user interface for channel surfing and favorite channel programming.,,,0.95,"[0, 381, 412, 432, 499]"
+IS1002c,decisions,Include a locator feature with a radio transmitter and a small cheap speaker.,,,0.9,"[0, 324, 326, 337, 340]"
+IS1002c,decisions,Include back-lit buttons and a mode switch on the remote.,,,0.9,"[0, 442, 444, 446]"
+IS1002c,decisions,Target a sales price bracket of 35 to 50 Euros.,,,0.95,"[0, 491, 492]"
+IS1002c,objections,,,,0.95,"[167, 169, 172]"
+IS1002c,objections,,,,0.95,[94]
+IS1002c,objections,,,,0.9,"[113, 114]"
+IS1002c,objections,,,,0.95,"[294, 299]"
+IS1002c,risks,,,,0.9,[191]
+IS1002c,risks,,,,0.9,"[266, 354]"
+IS1002c,risks,,,,0.9,"[367, 391]"
+IS1003b,action_items,Work on component design for the remote control,,,0.9,"[390, 391]"
+IS1003b,action_items,Work on the user interface concept for the remote control,,,0.9,"[390, 392]"
+IS1003b,objections,,,,0.85,[56]
+IS1003b,objections,,,,0.9,[364]
+IS1003b,risks,,,,0.9,"[272, 279]"
+IS1003b,risks,,,,0.85,"[186, 190]"
+IS1003b,unanswered_questions,How will the television be connected to the internet for global usage if users do not have the technology?,,,0.85,"[342, 353]"
+IS1003c,decisions,Use solar energy combined with a regular battery for the remote control power supply.,,,0.95,"[398, 409, 486]"
+IS1003c,decisions,Use low-level integrated circuit chips.,,,0.95,"[430, 432, 496]"
+IS1003c,decisions,Use wood for the remote control casing/material.,,,0.9,"[418, 518]"
+IS1003c,decisions,Use LCD lighted buttons.,,,0.95,"[440, 555]"
+IS1003c,decisions,Include simple vocal command recognition as an added feature.,,,0.9,"[572, 576]"
+IS1003c,action_items,"Work on the look and feel design for an easy-to-use, powerful, and fancy remote control with simple vocal command recognition.",,,0.9,[576]
+IS1003c,action_items,Work on incorporating a spongy touch for the buttons and find a nice shape for the wooden remote control.,Baba,,0.9,"[580, 582]"
+IS1003c,action_items,Work together on the prototype and model a clay remote control to show at the next meeting.,,,0.95,[590]
+IS1003c,objections,,,,0.9,"[56, 68, 78, 119, 138, 179, 280]"
+IS1003c,objections,,,,0.9,"[129, 158, 167, 229]"
+IS1003c,objections,,,,0.9,[536]
+IS1003c,risks,,,,0.85,"[223, 244]"
+IS1003c,risks,,,,0.85,"[472, 520]"
+IS1003d,decisions,Adopt the pineapple shape for the remote control design.,,,0.9,"[230, 231, 527, 533]"
+IS1003d,decisions,Accept the prototype under certain conditions.,,,0.9,"[527, 540]"
+IS1003d,objections,,,,0.85,"[814, 816]"
+IS1003d,risks,,,,0.85,"[730, 742]"
+IS1004b,decisions,Name the project 'Mando'.,,,1.0,"[45, 46, 47]"
+IS1004b,decisions,Restrict the remote control to television only due to time limitations.,,,1.0,"[143, 145, 302]"
+IS1004b,decisions,Do not go for speech recognition technology.,,,1.0,"[370, 389]"
+IS1004b,action_items,Work on the component concept for the next meeting.,Industrial Designer,,0.9,"[397, 398]"
+IS1004b,action_items,Work on the user interface for the next meeting.,User Interface,,0.9,"[397, 399]"
+IS1004b,action_items,Go through trend watching.,,,0.9,"[397, 399]"
+IS1004b,objections,,,,0.95,"[153, 156]"
+IS1004b,objections,,,,0.95,"[313, 314]"
+IS1004b,risks,,,,0.9,[205]
+IS1004b,unanswered_questions,Whether an LCD screen can be included or if it fits within the project targets and cost.,,,0.95,"[370, 399]"
+IS1004b,unanswered_questions,Can the unit price of the remote control be increased beyond 25 Euros?,,,0.9,"[318, 386]"
+IS1005a,decisions,The selling price of the remote control will be twenty-five Euros.,,,1.0,[108]
+IS1005a,decisions,The expected profit will be around fifty million Euros.,,,1.0,[108]
+IS1005a,decisions,The target market will be worldwide rather than only Switzerland.,,,1.0,[108]
+IS1005a,decisions,The production cost will be a maximum of twelve point fifty Euros per unit.,,,1.0,"[108, 109, 110]"
+IS1005a,action_items,Work on the technical functions of the remote control,Hamed,,0.9,"[157, 180]"
+IS1005a,action_items,Try to find the user requirements for the remote control,Bob,,1.0,[185]
+IS1005b,decisions,Avoid teletext on the remote control.,,,0.95,[182]
+IS1005b,decisions,"Use the remote control only for TVs, not for DVDs or other devices.",,,0.95,[182]
+IS1005b,decisions,Make the product recognisable by using company colors and putting the company slogan on it.,,,0.95,[184]
+IS1005b,objections,,,,0.9,[38]
+IS1005b,objections,,,,0.9,"[108, 111]"
+IS1005b,risks,,,,0.85,[434]
+IS1005b,unanswered_questions,Do we have some contacts in some companies which can report on what is going on there?,,,0.9,[104]
+IS1005c,decisions,Use a small LCD screen for the remote control.,,,0.95,"[222, 223]"
+IS1005c,decisions,Adopt a banana-inspired shape for the remote control.,,,0.95,"[251, 298, 300]"
+IS1005c,decisions,Use infra-red communication for the remote control.,,,0.95,"[305, 307]"
+IS1005c,decisions,Include a speech recognition system in the remote control.,,,0.95,"[400, 402]"
+IS1005c,action_items,Work on the look and feel design.,Industrial Designer,thirty minutes,0.95,[403]
+IS1005c,action_items,Work on the user interface device.,User Interface,thirty minutes,0.95,[403]
+IS1005c,action_items,Do the first project evaluation.,Marketing,thirty minutes,0.95,[403]
+IS1005c,action_items,Work together on a first prototype and look at the shape and how to put everything together.,,thirty minutes,0.9,"[403, 408]"
+IS1005c,objections,,,,0.9,"[62, 64]"
+IS1005c,risks,,,,0.9,[159]
+IS1006a,decisions,Aim for a target price of 25 Euros for the remote control.,,,0.95,"[101, 103]"
+IS1006a,decisions,Set a maximum production cost of 12.50 Euros.,,,0.95,[115]
+IS1006a,action_items,Work on the discussed ideas and decide which ones are important and which ones to discard during the thirty-minute break.,,in thirty minutes,0.9,[355]
+IS1006a,objections,,,,0.9,[159]
+IS1006a,objections,,,,0.9,"[239, 243, 249]"
+IS1006a,unanswered_questions,Should it be a universal remote control or a targeted remote control?,,,0.85,"[195, 205]"
+IS1006b,decisions,Concentrate only on televisions for the moment and make the remote more generalized later.,,,0.95,"[268, 269, 270]"
+IS1006b,action_items,Look into whether people really need to go directly to specific high-numbered channels like twenty-five and sixty-four.,Marketing,,0.9,"[332, 333, 334, 336]"
+IS1006b,objections,,,,0.9,[102]
+IS1006b,objections,,,,0.85,"[371, 413, 415]"
+IS1006c,decisions,Use simple batteries instead of solar cells.,,,0.95,"[21, 624]"
+IS1006c,decisions,Use push buttons instead of an LCD touchscreen.,,,0.9,"[59, 84]"
+IS1006c,action_items,"Work together on a new prototype using modelling clay covering look and feel design, user interface design, and product evaluation.",,in thirty minutes,0.9,"[498, 500]"
+IS1006c,objections,,,,0.9,[21]
+IS1006c,objections,,,,0.9,[22]
+IS1006c,objections,,,,0.9,"[51, 55]"
+IS1006c,risks,,,,0.9,[80]
+IS1006c,unanswered_questions,How to define speech recognition whether speaker independent or speaker dependent for household usage?,,,0.85,"[102, 106]"
+IS1006d,decisions,Use a single curve for the remote control case design,,,0.9,"[543, 545]"
+IS1006d,decisions,Remove the battery/chip costs to reach the budget target of twelve fifty,,,0.9,"[760, 778, 781, 782]"
+IS1006d,objections,,,,0.9,"[388, 391]"
+IS1006d,risks,,,,0.9,"[760, 768]"
+IS1007b,objections,,,,0.9,[258]
+IS1008a,decisions,The product to be designed is a television remote control.,,,0.95,"[41, 46]"
+IS1008a,commitments,Provide a project plan / discussion by the next meeting.,Marketing,next meeting,0.95,"[27, 28]"
+IS1008a,commitments,"Provide a plan (functional design, technical design, team members, time frame, budget, market introduction) within two weeks.",Industrial Designer,two weeks,0.9,"[77, 78]"
+IS1008a,action_items,Provide a project plan by the next meeting.,Marketing,next meeting,0.95,"[27, 28]"
+IS1008a,action_items,"Provide a plan including functional and technical design, team requirements, time frame, and budget within two weeks.",Industrial Designer,two weeks,0.9,"[77, 78]"
+IS1008b,objections,,,,0.9,"[46, 47]"
+IS1008b,objections,,,,0.9,[54]
+IS1008b,objections,,,,0.9,[60]
+IS1008b,objections,,,,0.9,"[78, 80]"
+IS1008b,objections,,,,0.9,[90]
+IS1008b,objections,,,,0.95,[121]
+IS1008b,objections,,,,0.95,[229]
+IS1008b,risks,,,,0.9,[99]
+IS1008b,risks,,,,0.9,[118]
+IS1008b,unanswered_questions,What is the timeframe needed to develop the speech recognition feature?,,,0.9,[144]
+IS1008c,decisions,Use the advanced chip on print for the remote control components.,Industrial Designer,,0.9,[309]
+IS1008c,decisions,Use wood for the remote control case material.,,,0.9,"[309, 310, 315]"
+IS1008c,decisions,Stick with the simple design for the time being until the cost of adding a display is found out.,,,0.95,"[319, 320]"
+IS1008c,action_items,Find out more about the advanced chip on print from the technology background before the next meeting.,Industrial Designer,,0.9,"[66, 68, 69]"
+IS1008c,action_items,Find out the cost of adding a display to the remote control.,Marketing,,0.9,"[301, 302]"
+IS1008c,action_items,Come up with the prototype/model design for the next meeting.,,,0.9,"[320, 331, 351]"
+IS1008c,objections,,,,0.85,[82]
+IS1008c,objections,,,,0.9,"[286, 290, 292, 296]"
+IS1008c,risks,,,,0.85,"[191, 210]"
+IS1008c,risks,,,,0.85,[172]
+IS1008c,unanswered_questions,What is the exact meaning of advanced chip on print / is it micro-processor based?,,,0.85,"[60, 67]"
+IS1009b,decisions,Eliminate teletext from the remote control design.,Project Manager,,0.95,"[55, 56, 73]"
+IS1009b,decisions,Limit the remote control functionality to control only the TV.,Project Manager,,0.95,"[58, 73, 116]"
+IS1009b,decisions,Target the remote control at everybody who has a TV.,Project Manager,,0.9,"[392, 394, 452]"
+IS1009b,risks,,,,0.95,"[58, 60]"
+IS1009c,decisions,Use a battery as the energy source for the remote control.,,,0.95,"[259, 260, 261, 262, 263, 264, 265]"
+IS1009c,decisions,Use a chip-on-print design for the remote control electronics.,,,0.95,"[267, 268, 269, 270, 271]"
+IS1009c,decisions,"Make the case bright, colourful, trendy, compact, and strong.",,,0.95,"[272, 275, 276, 277, 278, 279]"
+IS1009c,decisions,Use push-buttons for the user interface.,,,0.95,"[284, 285, 288]"
+IS1009c,action_items,Conduct research on how expensive the speech recognition feature is.,,,0.9,[300]
+IS1009c,action_items,Prepare the look and feel design for the next meeting.,Industrial Designer,in thirty minutes,0.95,[306]
+IS1009c,action_items,Come up with the user interface design for the next meeting.,User Interface,in thirty minutes,0.95,[306]
+IS1009c,action_items,Prepare the product evaluation for the next meeting.,Marketing,in thirty minutes,0.95,[308]
+IS1009c,action_items,Work together on a prototype using modelling clay.,,in thirty minutes,0.95,[310]
+IS1009c,objections,,,,0.9,"[242, 246, 249]"
+IS1009d,decisions,Use plastic for the remote case and soft rubber for the buttons.,Industrial Designer,,0.95,"[39, 256, 258, 260]"
+IS1009d,decisions,Include an infrared LED as the signal emitter.,User Interface,,0.95,"[48, 55]"
+IS1009d,decisions,Include a switch on and off button in a prominent place.,User Interface,,0.95,"[59, 112]"
+IS1009d,decisions,Include mute buttons on the sides.,User Interface,,0.95,"[60, 119, 121]"
+IS1009d,decisions,Include one to nine buttons for controlling channels.,User Interface,,0.95,"[62, 144]"
+IS1009d,decisions,Include two buttons for increasing or decreasing the volume.,User Interface,,0.95,"[66, 130]"
+IS1009d,decisions,Include two buttons for scrolling up and down programme channels.,User Interface,,0.95,"[68, 132]"
+IS1009d,decisions,"Include a fluorescent green menu button at the centre to control color, sharpness, and brightness.",User Interface,,0.95,"[78, 128]"
+IS1009d,decisions,"Include an elongated, slightly flexible swapping button to return to previous or next channels.",User Interface,,0.95,"[80, 82]"
+IS1009d,decisions,Include an inbuilt voice recogniser.,User Interface,,0.95,"[88, 194]"
+IS1009d,decisions,Use battery as the energy source.,Project Manager,,0.95,[228]
+IS1009d,decisions,Use a simple chip on print for electronics.,Project Manager,,0.95,[242]
+IS1009d,decisions,Use symbols on buttons instead of text for an international market.,Project Manager,,0.95,"[141, 144, 150]"
+IS1009d,risks,,,,0.9,"[348, 355]"
+TS3003b,decisions,Design a remote control which is only suitable for television.,Project Manager,,0.95,"[102, 103]"
+TS3003b,decisions,Keep teletext functionality in the remote control.,,,0.95,"[179, 180]"
+TS3003b,decisions,Include a button for big subtitles on the remote control.,Project Manager,,0.9,"[183, 184]"
+TS3003b,decisions,Include a small LCD screen on the remote control for extra button info and explanation.,,,0.9,"[300, 301]"
+TS3003b,decisions,Target elderly people (above sixty) as the market for the remote control.,,,0.85,"[316, 317]"
+TS3003b,action_items,Prepare components concept for the next meeting.,Industrial Designer,,0.95,[363]
+TS3003b,action_items,Prepare user interface concept and trend-watching for the next meeting.,User Interface,,0.95,[363]
+TS3003b,objections,,,,0.95,[120]
+TS3003b,objections,,,,0.9,"[125, 138, 139, 242]"
+TS3003b,risks,,,,0.85,[22]
+TS3003b,risks,,,,0.85,[22]
+TS3004c,decisions,Use rechargeable batteries as the energy source.,,,0.9,"[405, 409, 483]"
+TS3004c,decisions,Use a regular chip instead of an advanced chip or simple chip.,,,0.9,"[448, 449, 491]"
+TS3004c,decisions,Use a plastic case with a scroll wheel.,,,0.9,[496]
+TS3004c,objections,,,,0.85,"[120, 121]"
+TS3004c,objections,,,,0.9,"[466, 468, 470]"
+TS3004c,risks,,,,0.9,"[0, 99, 102]"
+TS3005b,decisions,The remote control will only be used for television.,,,0.95,"[121, 123]"
+TS3005b,decisions,The remote control will use an LCD screen.,,,0.95,"[219, 220, 276]"
+TS3005b,decisions,The remote control will use a docking station for recharging.,,,0.95,"[386, 389, 425]"
+TS3005b,decisions,A low battery indicator will be included on the screen.,,,0.95,"[375, 376]"
+TS3005b,decisions,Speech recognition will be implemented if there is enough money left.,,,0.9,"[580, 582, 585]"
+TS3005b,decisions,The remote control will be available in different colors.,,,0.9,"[695, 696]"
+TS3005b,decisions,"Teletext, screen settings, audio settings, and channel settings will be placed in separate sub-menus.",,,0.9,"[585, 606, 610, 716]"
+TS3005b,decisions,The remote control will be button-less (no physical buttons at all).,,,0.9,"[756, 810, 812]"
+TS3005b,commitments,I'll post the L_C_D_ screen costs in our projects mail folder once received.,Marketing,,0.85,"[270, 271]"
+TS3005b,objections,,,,0.9,"[180, 182]"
+TS3005b,objections,,,,0.85,"[286, 289]"
+TS3005b,risks,,,,0.9,[121]
+TS3005b,risks,,,,0.9,"[350, 352]"
+TS3005b,risks,,,,0.9,"[399, 401]"
+TS3005c,decisions,Use rubber for the remote control case material.,,,0.9,"[403, 405]"
+TS3005c,decisions,Adopt a single-curved shape for the remote control design.,,,0.85,"[428, 454]"
+TS3005c,action_items,Work together on a prototype drawing on a smart board.,Industrial Designer and User Interface Designer,,0.95,"[771, 773]"
+TS3005c,risks,,,,0.9,[43]
+TS3005d,decisions,Drop the sample speaker / speech recognition feature to reduce production costs.,,,0.9,"[0, 919, 961, 1068]"
+TS3005d,decisions,Drop the scroll wheel and rely on the touch screen.,,,0.9,"[0, 1002, 1071, 1106]"
+TS3005d,decisions,Keep the single curve design.,,,0.9,"[0, 1058, 1065]"
+TS3005d,objections,,,,0.85,"[300, 304]"
+TS3005d,objections,,,,0.9,"[1201, 1207]"
+TS3005d,risks,,,,0.95,"[738, 854, 858]"
+TS3006d,decisions,Use normal batteries instead of kinetic energy.,,,0.95,"[26, 29, 30]"
+TS3006d,decisions,Drop buttons one through nine.,,,0.95,"[52, 58]"
+TS3006d,decisions,Drop speech recognition.,,,0.95,"[158, 162]"
+TS3006d,decisions,Use plastic for the remote case.,,,0.95,"[253, 255]"
+TS3006d,decisions,Use a single curve shape for the remote.,,,0.95,"[46, 48]"
+TS3006d,decisions,Use an integrated scroll-wheel push-button instead of multiple push-buttons.,,,0.95,"[307, 315]"
+TS3006d,decisions,Keep the special color for the remote.,,,0.95,"[399, 404]"
+TS3006d,action_items,Make a report of every decision made so far.,Project Manager,,0.9,[958]
+TS3006d,objections,,,,0.9,[360]
+TS3006d,objections,,,,0.9,[108]
+TS3006d,risks,,,,0.9,"[670, 671]"
+TS3007b,decisions,Use infrared transmitting and no receiving on the remote control.,,,0.9,"[69, 77]"
+TS3007b,decisions,Adopt a touch screen design concept for the remote.,,,0.95,"[408, 409, 410, 411, 412, 413]"
+TS3007b,objections,,,,0.9,"[17, 28, 29, 30, 31, 32, 33]"
+TS3007b,objections,,,,0.9,"[60, 69, 71]"
+TS3007b,risks,,,,0.9,"[136, 139, 140, 219, 220, 223]"
+TS3008a,decisions,The project aim is to design a new remote control.,,,1.0,[51]
+TS3008a,decisions,The selling price of the remote control will be twenty-five Euros.,,,1.0,[253]
+TS3008a,decisions,The profit aim is fifteen million Euros.,,,1.0,[253]
+TS3008a,decisions,The market range for the remote control is international/world-wide.,,,1.0,[255]
+TS3008a,decisions,The production cost should be a maximum of twelve Euro fifty per remote control.,,,1.0,[255]
+TS3008a,decisions,The remote control is exclusively for televisions.,,,0.9,"[288, 295]"
+TS3008b,decisions,Skip the technical functions presentation and skip technical design details due to time constraints.,Industrial Designer,,0.9,"[51, 55]"
+TS3008b,decisions,Leave DVD and VCR related features off completely to keep the project simple and avoid endangering the time to market.,,,0.95,"[212, 213, 222]"
+TS3008b,decisions,Focus the remote control on television functions only rather than making it a universal remote.,,,0.95,"[242, 246]"
+TS3008b,decisions,Include a teletext button on the remote control as a single on/off button.,,,0.9,"[266, 296]"
+TS3008b,decisions,Use standard ordinary batteries (like AA batteries) rather than watch-style batteries.,,,0.95,"[329, 334]"
+TS3008b,commitments,Make sure the meeting minutes are digitized for next time and get the current meeting minutes in digital form.,Project Manager,,0.95,"[43, 46]"
+TS3008b,commitments,Look up the corporate slogan.,Marketing,,0.9,"[166, 167]"
+TS3008b,objections,,,,0.9,"[149, 150]"
+TS3008b,risks,,,,0.95,[212]
+TS3008c,decisions,Use plastic material for the case combined with soft rubber for the buttons and cushions.,,,0.95,"[21, 28, 507]"
+TS3008c,decisions,Use basic functions only for the remote control.,,,0.95,"[96, 122]"
+TS3008c,decisions,Make the skip channels and volume buttons extra large.,,,0.9,"[150, 154]"
+TS3008c,decisions,Reject the inclusion of an LCD display on the remote control.,,,0.95,"[488, 492]"
+TS3008c,decisions,"Include specific basic buttons: numbers, power, skip, volume, mute, teletext, and a menu button.",,,0.95,"[729, 731]"
+TS3008c,decisions,Bring out the remote control in multiple colours or designs.,,,0.9,"[558, 566]"
+TS3008c,objections,,,,0.95,"[368, 370, 460]"
+TS3008c,objections,,,,0.9,[425]
+TS3008c,objections,,,,0.9,"[750, 758, 761]"
+TS3008c,risks,,,,0.95,"[368, 370]"
+TS3008c,risks,,,,0.9,[425]
+TS3008c,unanswered_questions,What kind of information would be displayed on an LCD screen if one were used?,,,0.9,"[105, 325]"
+TS3009b,decisions,Drop teletext from the remote control functions.,,,0.95,"[51, 52]"
+TS3009b,decisions,Drop DVD control from the remote control functions.,,,0.95,"[56, 58]"
+TS3009b,decisions,Target a younger audience under thirty years old.,,,0.95,"[60, 177]"
+TS3009b,decisions,Incorporate an LCD screen into the remote control design.,,,0.9,"[536, 537, 782]"
+TS3009b,objections,,,,0.9,"[51, 55]"
+TS3009b,unanswered_questions,How much will the LCD screen cost to produce given the twelve Euro fifty production cost constraint?,,,0.9,"[180, 539]"
+TS3009c,decisions,Use an LCD screen positioned at the bottom of the remote control.,,,0.95,"[289, 409, 410]"
+TS3009c,decisions,Use hard plastic for the front of the remote control.,,,0.95,"[574, 575]"
+TS3009c,decisions,Use titanium for the back (non-removable elements) of the remote control.,,,0.95,"[563, 567, 575]"
+TS3009c,decisions,Include the company logo and slogan on the back of the remote control.,,,0.9,"[824, 859, 874]"
+TS3009c,decisions,Include the company logo on the front of the remote control (not exchangeable when changing fronts).,,,0.9,"[846, 878]"
+TS3009c,action_items,"Work together on a prototype drawing on the SMARTboard, including specifying the buttons.",,,0.95,"[731, 744]"
+TS3009c,risks,,,,0.85,[578]
+TS3009d,decisions,Use oval-shaped channel buttons on the device front.,,,0.9,"[65, 68]"
+TS3009d,decisions,Drop the expensive speaker component (sample speaker/sensor) to cut costs.,,,0.95,"[423, 425, 439]"
+TS3009d,decisions,Drop the titanium material and use titanium-coloured plastic instead to reduce costs.,,,0.95,"[614, 640]"
+TS3009d,objections,,,,0.9,"[118, 120]"
+TS3009d,objections,,,,0.9,"[412, 701]"
+TS3009d,risks,,,,0.95,"[416, 549, 550]"
+TS3010b,decisions,Teletext will not be included in the remote control.,,,0.95,"[164, 179, 180]"
+TS3010b,decisions,The remote control will only be for televisions and not other devices like radios.,,,0.95,[164]
+TS3010b,decisions,The target audience will be the age group younger than forty.,,,0.95,[164]
+TS3010b,decisions,The corporate color and slogan must be used in the design.,,,0.95,[164]
+TS3010b,objections,,,,0.9,"[169, 171]"
+TS3010b,risks,,,,0.9,"[146, 149]"
+TS3010c,decisions,Use a normal battery instead of a kinetic battery.,,,0.95,"[360, 364, 366]"
+TS3010c,action_items,Look up the cost for the LCD screen.,,,0.8,"[112, 113]"
+TS3010c,action_items,Fix and prepare the concept design for the next meeting (detailed design).,,,0.9,"[351, 447, 461, 464]"
+TS3010c,risks,,,,0.9,[79]
+TS3010c,unanswered_questions,How much more expensive is the chip with an LCD screen compared to without?,,,0.9,"[106, 116, 119]"
+TS3011b,decisions,Do not support teletext in the remote control.,,,1.0,[50]
+TS3011b,decisions,The remote control should only be used for television.,,,1.0,[50]
+TS3011b,decisions,Focus the product on customers younger than 40.,,,1.0,[52]
+TS3011b,decisions,"Include the corporate image, colors, and slogan in the product.",,,1.0,[52]
+TS3011b,decisions,Go for an easier/simpler remote control design with fewer buttons.,,,0.9,"[301, 302, 303]"
+TS3011b,decisions,Implement a seemingly easy exterior design while allowing for elaborate internal/advanced functions.,,,0.9,[522]
+TS3011b,action_items,Have a detailed look at the finding function/sound signal and come up with a solution.,Industrial Designer,,0.9,"[252, 253]"
+TS3011b,action_items,Put the minutes made during the meeting into the project documents folder.,Project Manager,,1.0,"[392, 562]"
+TS3011b,action_items,Find out if a cradle for recharging is very cheap.,Industrial Designer,,0.9,[495]
+TS3011b,objections,,,,0.9,"[256, 258, 259]"
+TS3011b,objections,,,,0.9,"[458, 481]"
+TS3011b,risks,,,,0.9,"[458, 481]"
+TS3011b,unanswered_questions,How to execute the sound signal for finding the remote from where it is?,,,0.85,[189]
+TS3011b,unanswered_questions,How much will voice recognition cost to implement?,,,0.9,[545]
+TS3011c,decisions,Use a single-curved case.,,,0.95,"[445, 474, 475]"
+TS3011c,decisions,Use traditional batteries combined with solar power as the energy source.,,,0.95,"[326, 478, 495]"
+TS3011c,decisions,Use rubber with a colorful finish for the casing.,,,0.9,"[497, 498]"
+TS3011c,decisions,Use a scroll-wheel.,,,0.95,"[532, 597]"
+TS3011c,decisions,Include voice recognition functionality.,,,0.95,"[532, 533]"
+TS3011c,decisions,Use the regular chip.,,,0.95,"[597, 598]"
+TS3011c,decisions,Skip the LCD screen display.,,,0.95,"[406, 407, 607]"
+TS3011c,action_items,Put the minutes on the shared folder.,,,0.85,"[30, 618]"
+TS3011c,action_items,Work together on the prototype drawing on the SMARTboard.,,thirty minutes,0.9,"[462, 468]"
+TS3011c,risks,,,,0.9,[528]
+TS3012a,decisions,The new product to be designed is a television remote control.,,,0.95,"[16, 151, 152]"
+TS3012a,decisions,The selling price of the remote control will be twenty-five Euros.,,,0.9,[178]
+TS3012a,decisions,The production price of the remote control will be approximately twelve and a half Euros.,,,0.9,[178]
+TS3012a,unanswered_questions,"Are we going to introduce a multi remote control, or is it just the TV?",,,0.9,[151]
+TS3012a,unanswered_questions,Do we want people who are disabled in any way to be able to use it as well?,,,0.85,[165]
+TS3012b,decisions,Target younger people under forty for the new product.,Project Manager,,0.95,"[0, 171]"
+TS3012b,decisions,Go with a universal remote control.,,,0.9,"[256, 258, 267]"
+TS3012b,action_items,Draw up some designs of possible remote control concepts and post them on the product share.,User Interface,,0.9,"[427, 686, 698]"
+TS3012b,action_items,"Find out financial information, costs, and materials regarding the components and L_C_D_ screen/speech recognition possibilities.",Industrial Designer,,0.9,"[593, 644, 929, 931]"
+TS3012b,objections,,,,0.9,"[210, 213, 218]"
+TS3012b,objections,,,,0.9,"[271, 277, 280]"
+TS3012b,risks,,,,0.85,"[213, 215]"
+TS3012b,risks,,,,0.9,"[152, 154]"
+TS3012b,unanswered_questions,Is it technically possible to send a signal to a television to pop up a menu for different types of televisions?,,,0.85,"[351, 353, 359]"
+TS3012b,unanswered_questions,How should changeable covers work (changing both buttons and cover vs. just the sleeve/cover)?,,,0.85,"[314, 340]"
+TS3012d,decisions,Scrap speech recognition to reduce production costs.,Project Manager,,0.95,"[50, 66]"
+TS3012d,decisions,Drop the special yellow color on the basic model to reduce production costs.,Project Manager,,0.95,"[67, 138]"
+TS3012d,decisions,Keep the banana curve on the remote control.,,,0.95,"[221, 223]"
+TS3012d,decisions,Keep the rubber material for the basic remote control.,,,0.95,"[225, 226]"
+TS3012d,decisions,Name the final product 'Triple R'.,,,0.95,"[827, 831]"
+TS3012d,action_items,Draw a picture of the final design to put on the cover of the report,,,0.9,"[850, 852]"
+TS3012d,objections,,,,0.9,[70]
+TS3012d,risks,,,,0.95,"[47, 49]"

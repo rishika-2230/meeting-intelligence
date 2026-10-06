@@ -1,0 +1,40 @@
+# Environment variables / API keys
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE / OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+# Generated prediction outputs
+phase3/outputs/
+phase3/outputs_120/
+
+# Local database
+phase3/meeting_intelligence.db
