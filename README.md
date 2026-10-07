@@ -365,6 +365,8 @@ This repository represents an **ongoing portfolio project**. Features and evalua
 
 ---
 
-Author
- Rishika
- GitHub: rishika-2230
+### Author
+
+**Rishika**
+
+GitHub: `rishika-2230`
