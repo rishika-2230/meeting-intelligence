@@ -362,3 +362,9 @@ The emphasis is on:
 ## Note
 
 This repository represents an **ongoing portfolio project**. Features and evaluation results will continue to evolve as the Fireflies integration, search layer, CRM workflow, and user interface are completed.
+
+---
+
+Author
+ Rishika
+ GitHub: rishika-2230
