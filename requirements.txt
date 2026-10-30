@@ -1,0 +1,28 @@
+
+# Meeting Intelligence & Execution Hub
+# Python 3.12
+
+# Web application
+streamlit==1.59.1
+
+# Data processing
+pandas==3.0.3
+numpy==2.4.4
+
+# Semantic search
+faiss-cpu==1.15.1
+sentence-transformers==6.2.0
+
+# Gemini AI extraction
+google-genai==2.22.0
+
+# Fireflies webhook backend
+fastapi==0.141.1
+uvicorn==0.51.0
+
+# API requests and environment configuration
+requests==2.34.2
+python-dotenv==1.2.2
+
+# Structured extraction validation
+jsonschema==4.26.0

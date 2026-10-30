@@ -1,0 +1,16 @@
+﻿question,content_type,rank,meeting_id,similarity,relevance,source_document_id,passage
+What decisions were made about product design?,decisions,1,ES2002b,0.4395,2,item:299,incorporate the corporate color and slogan into the new design.
+What decisions were made about product design?,decisions,2,TS3011b,0.4314,2,item:785,"include the corporate image, colors, and slogan in the product."
+What decisions were made about product design?,decisions,3,TS3010b,0.4055,2,item:774,the corporate color and slogan must be used in the design.
+What decisions were made about product design?,decisions,4,IS1005b,0.3835,2,item:576,make the product recognisable by using company colors and putting the company slogan on it.
+What decisions were made about product design?,decisions,5,ES2005b,0.3559,1,item:354,adopt an organic design for the remote control.
+What follow-up work was assigned for the next meeting?,action_items,1,ES2013b,0.5766,2,item:425,do the trend - watching work for the next meeting.
+What follow-up work was assigned for the next meeting?,action_items,2,IS1004b,0.5562,2,item:561,work on the user interface for the next meeting.
+What follow-up work was assigned for the next meeting?,action_items,3,IS1008a,0.5166,2,item:617,provide a project plan by the next meeting.
+What follow-up work was assigned for the next meeting?,action_items,4,IS1001c,0.4776,2,item:510,work on final look and feel design and user interface design until the next meeting.
+What follow-up work was assigned for the next meeting?,action_items,5,Bmr019,0.4645,1,item:37,send out a schedule for the saturday meeting once available.
+What questions remained unanswered about project approvals?,unanswered_questions,1,covid_5,0.5112,2,item:192,how many projects submitted by provinces are currently waiting for approval from the federal government?
+What questions remained unanswered about project approvals?,unanswered_questions,2,Bmr003,0.2721,0,item:20,when is the projector going to be installed?
+What questions remained unanswered about project approvals?,unanswered_questions,3,covid_3,0.2501,0,item:178,when will the minister of foreign affairs show up to answer questions about his personal debt to the chinese government?
+What questions remained unanswered about project approvals?,unanswered_questions,4,IS1005b,0.2446,2,item:580,do we have some contacts in some companies which can report on what is going on there?
+What questions remained unanswered about project approvals?,unanswered_questions,5,Bro028,0.2364,2,item:117,what is the exact evaluation schedule or deadline in weeks?

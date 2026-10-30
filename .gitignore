@@ -1,40 +1,178 @@
-# Environment variables / API keys
+
+# ============================================================
+# MEETING INTELLIGENCE & EXECUTION HUB
+# GITHUB SECURITY AND PROJECT IGNORE RULES
+# ============================================================
+
+
+# ------------------------------------------------------------
+# 1. ENVIRONMENT VARIABLES AND API CREDENTIALS
+# ------------------------------------------------------------
+
 .env
 .env.*
 !.env.example
 
-# Python cache
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+service-account*.json
+*secret*.json
+
+
+# ------------------------------------------------------------
+# 2. STREAMLIT SECRETS
+# ------------------------------------------------------------
+
+.streamlit/secrets.toml
+.streamlit/secrets.*.toml
+
+# Keep .streamlit/config.toml available for deployment.
+
+
+# ------------------------------------------------------------
+# 3. SQLITE DATABASES AND BACKUPS
+# ------------------------------------------------------------
+
+*.db
+*.sqlite
+*.sqlite3
+
+*.db-journal
+*.db-wal
+*.db-shm
+
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+
+*.db.backup
+*.db.bak
+
+
+# ------------------------------------------------------------
+# 4. PYTHON CACHE
+# ------------------------------------------------------------
+
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Virtual environments
+
+# ------------------------------------------------------------
+# 5. PYTHON VIRTUAL ENVIRONMENTS
+# ------------------------------------------------------------
+
 venv/
 .venv/
 env/
+ENV/
 
-# IDE / OS files
+
+# ------------------------------------------------------------
+# 6. EDITORS AND OPERATING SYSTEM
+# ------------------------------------------------------------
+
 .vscode/
+.idea/
+
 .DS_Store
 Thumbs.db
+desktop.ini
 
-# Jupyter temporary files
+
+# ------------------------------------------------------------
+# 7. JUPYTER AND DEVELOPMENT CACHE
+# ------------------------------------------------------------
+
 .ipynb_checkpoints/
 
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-*.temp
-
-# Python tooling
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
-# Generated prediction outputs
+
+.coverage
+htmlcov/
+
+
+# ------------------------------------------------------------
+# 8. LOGS AND TEMPORARY FILES
+# ------------------------------------------------------------
+
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+
+logs/
+temp/
+
+
+# ------------------------------------------------------------
+# 9. GENERATED GEMINI EXTRACTION OUTPUTS
+# ------------------------------------------------------------
+
 phase3/outputs/
 phase3/outputs_120/
 
-# Local database
-phase3/meeting_intelligence.db
+phase3/fireflies_prediction.json
+
+
+# ------------------------------------------------------------
+# 10. GENERATED SENTENCE TRANSFORMER / FAISS DATA
+# ------------------------------------------------------------
+
+phase3/search_embeddings.npy
+phase3/meeting_search.index
+phase3/embedding_metadata.jsonl
+
+phase3/search_documents.jsonl
+phase3/search_chunks.jsonl
+
+
+# ------------------------------------------------------------
+# 11. LOCAL FIREFLIES TRANSCRIPTS
+# ------------------------------------------------------------
+
+phase3/fireflies_normalized_transcript.txt
+phase3/fireflies_test_transcript.json
+
+phase3/test_meeting.txt
+
+
+# ------------------------------------------------------------
+# 12. MODEL / MACHINE LEARNING CACHE
+# ------------------------------------------------------------
+
+.cache/
+.cache/huggingface/
+
+models/
+checkpoints/
+
+
+# ------------------------------------------------------------
+# 13. PACKAGED BUILD OUTPUTS
+# ------------------------------------------------------------
+
+build/
+dist/
+*.egg-info/
+
+
+# ============================================================
+# IMPORTANT
+# ============================================================
+
+# Python source code, documentation and Streamlit application
+# files are NOT ignored.
+
+# The public demo will need a separate deployment-data plan.
+# Ignoring FAISS artifacts means they will NOT automatically
+# be available to a deployment built only from this repository.
+
+# Git ignore rules do not remove files already tracked by Git.
+# Existing tracked files must be audited separately.
