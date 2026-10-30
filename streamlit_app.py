@@ -24,11 +24,30 @@ from dotenv import load_dotenv
 BASE_DIR = Path(__file__).resolve().parent
 PHASE3_DIR = BASE_DIR / "phase3"
 
-DB_PATH = PHASE3_DIR / "meeting_intelligence.db"
-REFRESH_SCRIPT = PHASE3_DIR / "refresh_semantic_index.py"
-METADATA_PATH = PHASE3_DIR / "embedding_metadata.jsonl"
-
 load_dotenv(BASE_DIR / ".env")
+
+# The public portfolio demo is opt-in. Default local mode keeps the
+# original database, Fireflies upload workflow and review history.
+DEMO_MODE = (
+    os.getenv("MEETING_INTELLIGENCE_DEMO_MODE", "false").strip().lower()
+    == "true"
+)
+DEMO_DIR = PHASE3_DIR / "outputs" / "portfolio_demo"
+DATA_DIR = DEMO_DIR if DEMO_MODE else PHASE3_DIR
+
+DB_PATH = DATA_DIR / "meeting_intelligence.db"
+METADATA_PATH = DATA_DIR / "embedding_metadata.jsonl"
+REFRESH_SCRIPT = PHASE3_DIR / "refresh_semantic_index.py"
+
+
+def open_meeting_connection():
+    """Read-only SQLite access in demo mode; unchanged local behavior."""
+    if DEMO_MODE:
+        return sqlite3.connect(
+            f"file:{DB_PATH.resolve().as_posix()}?mode=ro",
+            uri=True,
+        )
+    return sqlite3.connect(DB_PATH)
 
 if str(PHASE3_DIR) not in sys.path:
     sys.path.insert(0, str(PHASE3_DIR))
@@ -183,7 +202,7 @@ def load_meeting_data():
             f"Meeting database not found: {DB_PATH}"
         )
 
-    with closing(sqlite3.connect(DB_PATH)) as conn:
+    with closing(open_meeting_connection()) as conn:
 
         meetings = pd.read_sql_query(
             """
@@ -220,7 +239,7 @@ def load_meeting_data():
 @st.cache_data(ttl=60)
 def load_crm_status():
 
-    with closing(sqlite3.connect(DB_PATH)) as conn:
+    with closing(open_meeting_connection()) as conn:
 
         notes = pd.read_sql_query(
             """
@@ -258,7 +277,7 @@ def load_crm_status():
 
 def meeting_exists(meeting_id):
 
-    with closing(sqlite3.connect(DB_PATH)) as conn:
+    with closing(open_meeting_connection()) as conn:
 
         row = conn.execute(
             """
@@ -422,6 +441,9 @@ def load_semantic_search():
 
 def process_uploaded_meeting(meeting_id, transcript):
 
+    if DEMO_MODE:
+        raise PermissionError("Meeting uploads are disabled in public demo mode.")
+
     from run_fireflies_meeting import (
         extract_meeting_intelligence
     )
@@ -465,6 +487,9 @@ def process_uploaded_meeting(meeting_id, transcript):
 # ============================================================
 
 def refresh_semantic_search(meeting_id):
+
+    if DEMO_MODE:
+        raise PermissionError("Search indexing is disabled in public demo mode.")
 
     if not REFRESH_SCRIPT.is_file():
         raise FileNotFoundError(
@@ -557,6 +582,10 @@ def admin_unlock(
     button_label
 ):
 
+    # A previously unlocked browser session must not grant demo writes.
+    if DEMO_MODE:
+        return False
+
     password = os.getenv(
         "MEETING_UPLOAD_PASSWORD",
         ""
@@ -633,6 +662,9 @@ with st.sidebar:
 
     st.title("🧠 Meeting Intelligence")
     st.caption("Execution & Analytics Hub")
+
+    if DEMO_MODE:
+        st.info("Public portfolio demo · Read-only · 120 research meetings")
 
     st.divider()
     st.markdown("### Navigation")
@@ -1696,6 +1728,14 @@ elif page == "Add Meeting":
 
     st.title("📤 Add New Meeting")
 
+    if DEMO_MODE:
+        st.info(
+            "The portfolio demo is read-only. Transcript uploads, "
+            "Gemini extraction, and indexing are available only "
+            "in the separately configured local application."
+        )
+        st.stop()
+
     st.write(
         "Upload a transcript, extract intelligence "
         "with Gemini, save to SQLite, and "
@@ -2215,6 +2255,13 @@ elif page == "Human Review":
 
     st.subheader("Record Review Decision")
 
+    if DEMO_MODE:
+        st.info(
+            "Read-only demonstration: review history is visible, "
+            "but approving or rejecting meetings is disabled."
+        )
+        st.stop()
+
     authorized = admin_unlock(
         "meeting_review_authorized",
         "meeting_review_login",
@@ -2350,11 +2397,17 @@ elif page == "HubSpot CRM":
 
     st.title("HubSpot CRM Integration")
 
-    st.info(
-        "CRM notes and tasks are displayed for "
-        "monitoring. This page does not trigger "
-        "live HubSpot synchronization."
-    )
+    if DEMO_MODE:
+        st.info(
+            "Public demo: real CRM records are excluded. "
+            "HubSpot synchronization and CRM writes are disabled."
+        )
+    else:
+        st.info(
+            "CRM notes and tasks are displayed for "
+            "monitoring. This page does not trigger "
+            "live HubSpot synchronization."
+        )
 
     try:
 
