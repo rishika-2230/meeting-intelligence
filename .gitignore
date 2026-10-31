@@ -176,3 +176,7 @@ dist/
 
 # Git ignore rules do not remove files already tracked by Git.
 # Existing tracked files must be audited separately.
+# Private research and extraction outputs
+phase3/predictions_120_combined.json
+phase3/meetings_120.csv
+phase3/meeting_items_120.csv
